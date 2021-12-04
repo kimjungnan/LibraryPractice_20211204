@@ -34,8 +34,10 @@ android {
 }
 
 dependencies {
-//서클이미지 라이브러리 
+//서클이미지 라이브러리
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+// 라이브러리
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.0'
