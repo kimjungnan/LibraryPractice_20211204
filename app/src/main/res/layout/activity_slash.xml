@@ -9,10 +9,14 @@
     android:orientation="vertical"
     tools:context=".SlashActivity">
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@mipmap/ic_launcher" />
+      <com.airbnb.lottie.LottieAnimationView
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          app:lottie_rawRes="@raw/snata"
+          app:lottie_autoPlay="true"
+          app:lottie_loop="true"
+          />
+
 
 
 </LinearLayout>
