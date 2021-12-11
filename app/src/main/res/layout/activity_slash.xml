@@ -10,8 +10,8 @@
     tools:context=".SlashActivity">
 
       <com.airbnb.lottie.LottieAnimationView
-          android:layout_width="100dp"
-          android:layout_height="100dp"
+          android:layout_width="300dp"
+          android:layout_height="300dp"
           app:lottie_rawRes="@raw/snata"
           app:lottie_autoPlay="true"
           app:lottie_loop="true"
